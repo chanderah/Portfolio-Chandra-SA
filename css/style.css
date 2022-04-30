@@ -8950,6 +8950,7 @@ h1, h2, h3, h4, h5,
     margin-top: -70px;
     padding-top: 10em !important; } }
 
+
 .project {
   width: 100%;
   height: 285px;
@@ -8957,7 +8958,7 @@ h1, h2, h3, h4, h5,
   position: relative;
   z-index: 0; }
   .project.img-2 {
-    height: 600px; }
+    height: 200px; }
     @media (max-width: 767.98px) {
       .project.img-2 {
         height: 285px; } }
@@ -9024,23 +9025,6 @@ h1, h2, h3, h4, h5,
     opacity: .9; }
   .project:hover .text, .project:focus .text {
     opacity: 1; }
-
-.aside-stretch {
-  background: #ffce6c; }
-  .aside-stretch:after {
-    position: absolute;
-    top: 0;
-    right: 100%;
-    bottom: 0;
-    content: '';
-    width: 360%;
-    background: #ffce6c; }
-  @media (max-width: 767.98px) {
-    .aside-stretch {
-      background: transparent; }
-      .aside-stretch:after {
-        background: transparent;
-        display: none; } }
 
 .form-control {
   height: 52px !important;
